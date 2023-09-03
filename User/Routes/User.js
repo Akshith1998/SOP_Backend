@@ -60,8 +60,6 @@ router.post("/", async (req, res) => {
     .catch((err) => {
       res.status(400).send(err);
     });
-
-  res.status(200).send("success");
 });
 
 module.exports = router;
